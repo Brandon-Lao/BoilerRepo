@@ -19,6 +19,7 @@ export const UserHome = props => {
  * CONTAINER
  */
 const mapState = state => {
+  console.log("Something to change.")
   return {
     email: state.user.email
   }
